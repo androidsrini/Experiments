@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Music Player Application</string>
+    <string name="title_activity_music_player">MusicPlayerActivity</string>
+
+    <string name="cd_next">Skip</string>
+    <string name="dummy_album_name">album name</string>
+    <string name="dummy_artist_name">artist name</string>
+    <string name="dummy_track_name">track name</string>
+</resources>

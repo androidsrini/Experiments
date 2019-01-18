@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MusicPlayerActivity">
+
+    <ImageView
+            android:id="@+id/songAlbumImageView"
+            style="@style/fat"
+            android:layout_centerVertical="true"
+            />
+
+    <LinearLayout style="@style/fat.vertical"
+                  android:layout_alignParentBottom="true">
+
+        <androidx.appcompat.widget.AppCompatSeekBar
+                android:id="@+id/songsPlaySeekBar"
+                style="@style/fat"/>
+
+        <LinearLayout style="@style/fat.horizontal"
+                      android:gravity="center"
+                      android:layout_marginTop="8dp"
+        >
+
+            <ImageView
+                    android:id="@+id/songsPlayImageView"
+                    style="@style/wrap"
+                       android:src="@drawable/play_button_selector_drawable"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

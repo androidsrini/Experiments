@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/fat.horizontal"
+              android:padding="8dp"
+              android:gravity="center_vertical">
+
+    <com.musicplayerapplication.customView.CircleImageView
+            android:id="@+id/songImageImageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+    />
+
+    <TextView
+            android:id="@+id/songNameTextView"
+            style="@style/wrap"
+    android:layout_marginStart="5dp"/>
+
+</LinearLayout>
